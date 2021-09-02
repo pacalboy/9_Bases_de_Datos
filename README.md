@@ -56,7 +56,7 @@ COLLECTION que solo aparece si tienes una base de datos seleccionada.
 aparece se añade el nuevo objeto escribiendo sus atributos.
 ![](/1.MongoDB/3.png)
 
-Crea una aplicación en Java que se conecte a MongoDB. Crea una nueva base de datos llamada "Biblioteca". Dentro de esta base de datos crea una colección llamada "Libros".  
+- Crea una aplicación en Java que se conecte a MongoDB. Crea una nueva base de datos llamada "Biblioteca". Dentro de esta base de datos crea una colección llamada "Libros".  
 
 La base de datos se puede crear en MongoDB siguiendo los pasos antes
 descritos, o desde la misma aplicación Java se creará al conectarse si esta
@@ -382,9 +382,11 @@ public class CommonConnection {
   
 **query/CountRecord.java**  
 Se conecta a la BD MySQL y realiza dos consultas a una tabla (vosotros debéis poner una tabla de vuesta base de datos) con el objetivo de calcular el número de entradas de la tabla. La primera forma de calcular este número es un poco _paseosa_ y la segunda sí es eficiente. Debéis:  
-5. Comentar la clase completa. Especificando qué hace cada línea de código. Debéir usar la documentación oficial para saber qué hace cada método.  
-6. Modificar la clase para que se conecte a vuestro servidor MySQL y consulte a una tabla de vuestra BD. Cuando ejecutéis tened en cuenta que debéis tener levantado el server con XAMP, si no activáis el servicio no conseguiréis conectaros.  
-7. Adjuntar captura de los resultados obtenidos por consola al conectaros a la BD y realizar la consulta.  
+
+1. Comentar la clase completa. Especificando qué hace cada línea de código. Debéir usar la documentación oficial para saber qué hace cada método.  
+2. Modificar la clase para que se conecte a vuestro servidor MySQL y consulte a una tabla de vuestra BD. Cuando ejecutéis tened en cuenta que debéis tener levantado el server con XAMP, si no activáis el servicio no conseguiréis conectaros.  
+
+3. Adjuntar captura de los resultados obtenidos por consola al conectaros a la BD y realizar la consulta.  
 
 ~~~
 public class CountRecord {
